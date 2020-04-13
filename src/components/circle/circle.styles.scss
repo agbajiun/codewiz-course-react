@@ -1,0 +1,56 @@
+  #courses{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  
+  .circle {
+    width: 220px;
+    height: 220px;
+    border-radius: 80%;
+    padding: 50px;
+    text-align: center;
+    margin: 5px;
+  
+    display: block;
+
+    &span {
+      color: white;
+    }
+
+    & .title {
+      color: #fff;
+      text-align: center;
+    }
+  }
+
+  
+  .teal {
+    background: radial-gradient(circle at 100px 100px, #41d9ff, #191919);
+  }
+  
+  .purple {
+    background: radial-gradient(circle at 100px 100px, #752b8d, #191919);
+  }
+  
+  .orange {
+    background: radial-gradient(circle at 100px 100px, #ffe65b, #191919);
+  }
+  
+  .green {
+    background: radial-gradient(circle at 100px 100px, #9acc5b, #191919);
+  }
+  
+  .dark-green {
+    background: radial-gradient(circle at 100px 100px, #00314e, #191919);
+  }
+  
+  .home-blue {
+    background: radial-gradient(circle at 100px 100px, #295a99, #191919);
+  }
+  
+  
