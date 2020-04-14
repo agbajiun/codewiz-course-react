@@ -15,21 +15,41 @@ class Directory extends React.Component {
                   id: 1,
                   linkUrl: 'shop/hats',
                   color: 'green',
-
+                  name: 'View Course',
+                  btn: 'button2',
+                  options: [
+                    { value: 'aic', label: 'AIC' },
+                    { value: 'des', label: 'DES' },
+                    { value: 'ghj', label: 'GHJ' }
+                  ]
                 },
                 {
                   title: 'competitions',
                   imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
                   id: 2,
                   linkUrl: 'shop/jackets',
-                  color: 'dark-green'
+                  color: 'dark-green',
+                  name: 'View Course',
+                  btn: 'button3',
+                  options: [
+                    { value: 'abd', label: 'ABD' },
+                    { value: 'dqf', label: 'DQF' },
+                    { value: 'gzi', label: 'GZI' }
+                  ]
                 },
                 {
                   title: 'robotics',
                   imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
                   id: 3,
                   linkUrl: 'shop/sneakers',
-                  color: 'purple'
+                  color: 'purple',
+                  name: 'View Course',
+                  btn: 'button3',
+                  options: [
+                    { value: 'arc', label: 'ARC' },
+                    { value: 'def', label: 'DEF' },
+                    { value: 'gyi', label: 'GYI' }
+                  ]
                 },
                 {
                   title: 'gaming',
@@ -37,15 +57,14 @@ class Directory extends React.Component {
                   size: 'large',
                   id: 4,
                   linkUrl: 'shop/womens',
-                  color: 'orange'
-                },
-                {
-                  title: 'misc',
-                  imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
-                  size: 'large',
-                  id: 5,
-                  linkUrl: 'shop/mens',
-                  color: 'teal'
+                  color: 'orange',
+                  name: 'View Course',
+                  btn: 'button4',
+                  options: [
+                    { value: 'abc', label: 'ABC' },
+                    { value: 'def', label: 'DEF' },
+                    { value: 'ghi', label: 'GHI' }
+                  ]
                 }]
         }
     }
@@ -54,8 +73,8 @@ class Directory extends React.Component {
         return (
             <div className='directory-menu'>
                 {
-                this.state.sections.map(({title, id, size, color}) => (
-                    <Circle key={id} title={title} size={size} color={color}/>
+                this.state.sections.map(({title, id, size, color, options, name, btn}) => (
+                    <Circle key={id} title={title} size={size} color={color} options={options} name={name} btn={btn}/>
                 ))
                 }
             </div>

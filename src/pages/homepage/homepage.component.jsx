@@ -1,5 +1,5 @@
 import React from 'react';
-
+import logo from '../../images/code-wize-logo-horizontal.png'
 import Directory from '../../components/directory/directory.component';
 import Circle from '../../components/circle/circle.component';
 
@@ -18,7 +18,8 @@ const options = [
 
 const HomePage = () => (
     <div className="homepage">
-        <Circle key='2' title='Pick the age' size='small' color='home-blue' options={options}/>
+        <img src={logo} />
+        <Circle key='2' title='Pick the age' size='small' color='home-blue' options={options} url="/courses" name="Find Courses" btn="button5"/>
     </div>
 );
 
