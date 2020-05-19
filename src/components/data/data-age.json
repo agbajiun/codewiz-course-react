@@ -1,0 +1,23 @@
+[{
+    "age" : 7,
+    "courses" : [
+        {
+            "title": "Robotics", 
+            "value": "robotics", 
+            "color": "purple",
+            "btn": "button3",
+            "options":[
+              { "value": "wedo", "label": "WeDo" }
+            ]
+          },
+          {
+            "title": "Robotics", 
+            "value": "robotics", 
+            "color": "purple",
+            "btn": "button3",
+            "options":[
+              { "value": "wedo", "label": "WeDo" }
+            ]
+          }
+    ]
+}]

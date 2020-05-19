@@ -1,0 +1,14 @@
+[
+    {
+        "heading": "Scratch",
+        "decription" : "Coding can be for kids of all ages! Even beginners who have no prior coding experience before are able to jump in and learn too! Kids learn to code using visual code blocks that represent real programming concepts that scale from easy to advanced. They learn about sequencing, loops, inﬁnite loops, conditionals, events and more. With our Drag and Drop Platform, kids learn to code by creating their own games and animations!",
+        "link": "Sign Up At Your Local Code Wiz Center",
+        "link-text": "https://thecodewiz.com/code-wiz-locations/"
+    },
+    {
+        "heading": "WeDo",
+        "decription" : "Combining hands-on LEGO® bricks with easy-to-use coding software and inspiring STEM projects, LEGO Education WeDo 2.0 enables kids to explore the building blocks of coding. From simple drag and drop interfaces to developing more complex algorithms, kids can explore the world around them and bring their ideas to life with code. LEGO WeDo enables students to develop computational thinking skills and transform them directly into programming solutions that interact with the real world. Kids will learn to use the motion and tilt sensors. As they advance in the course, they will learn to create simple animations on the computers that they control with their robots.",
+        "link": "Sign Up At Your Local Code Wiz Center",
+        "link-text": "https://thecodewiz.com/code-wiz-locations/"
+    }
+]
